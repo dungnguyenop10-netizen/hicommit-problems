@@ -1,11 +1,23 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
-int main() {
+int main() 
+{
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c );
+    int max = a;
     
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+    if (b > max)
+    {
+        max = b;
+    }
+    if (c > max)
+    {
+        max = c;
+    }
+    else
+    {
+        max =a;
+    }
+    printf ("%d", max);
+  return 0;
 }
