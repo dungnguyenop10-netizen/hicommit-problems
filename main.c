@@ -5,11 +5,11 @@ int main ()
 	scanf ("%d", &so_chan_so_le);
     if (so_chan_so_le % 2 == 0 )
     {
-    printf ("chan");
+    printf ("CHAN");
     }
     else
     {
-    printf ("le");
+    printf ("LE");
     }
     return 0;
 }	
