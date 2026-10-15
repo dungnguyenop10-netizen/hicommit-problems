@@ -11,15 +11,15 @@ int main()
 	{
 		printf ("%d", 0);
 	}
-	else if (distance < 5)
+	else if (distance >= 1 && distance <= 5)
 	{
 		printf ("%d", 15000);
 	}
-	else if (distance < 15)
+	else if (distance <= 15)
 	{
 		printf ("%d", 25000);
 	}
-	else if (distance > 15)
+	else if (distance >= 15)
 	{
 		printf ("%d", 40000);
 	}
