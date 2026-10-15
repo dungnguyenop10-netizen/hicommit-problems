@@ -19,7 +19,7 @@ int main()
 	{
 		printf ("%d", 25000);
 	}
-	if (distance > 15)
+	else if (distance > 15)
 	{
 		printf ("%d", 40000);
 	}
