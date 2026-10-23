@@ -2,8 +2,8 @@
 int main() 
 {
   float a, b, c;
-  scanf("%f", &a, &b);
-  c = a/(b/100)*(b/100);
+  scanf("%f %f", &a, &b);
+  c = a/(b/100)*2;
   if (c>=30) 
   {
     printf ("OBESE");
