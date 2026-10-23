@@ -4,7 +4,11 @@ int main()
 {
   long long k;
   scanf("%lld", &k);
-  if (k<=50)
+  if (k<=0)
+  {
+    printf("0");
+  }
+  else if (k<=50)
   {
     printf("%lld", k * 1678LL);
   }
