@@ -6,7 +6,7 @@ int main()
   scanf("%lld", &k);
   if (k<=50)
   {
-    printf("%lld", k*1678LL);
+    printf("%lld", k * 1678LL);
   }
   else if (k<=100)
   {
