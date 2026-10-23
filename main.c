@@ -30,7 +30,7 @@ int main()
   }
   else
   {
-    printf("%lld", 902850LL + (k - 400) * 2927LL);
+  printf("%lld", 909000LL + (k - 400) * 2927LL);
   }
   return 0;
 }
