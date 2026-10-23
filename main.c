@@ -22,7 +22,7 @@ int main()
   }
   else
   {
-     printf("KHONG_HOP_LE")};
+     printf("KHONG_HOP_LE");
   }
   return 0;
 }
