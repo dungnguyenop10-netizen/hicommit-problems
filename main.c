@@ -2,7 +2,7 @@
 
 int main() 
 {
-  int k, a;
+  int k;
   scanf("%d", &k);
   if (k<50)
   {
@@ -24,7 +24,7 @@ int main()
   {
     printf("%d", k*2834);
   }
-  else if (k>400) 
+  else
   {
     printf("%d", k*2927);
   }
