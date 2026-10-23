@@ -2,11 +2,11 @@
 
 int main() 
 {
-  int a;
-  scanf ("%d", &a);
-  if (a<10 && a>9)
+  float a;
+  scanf ("%f", &a);
+  if (9>a<10)
   {
-    printf ("A");
+    printf("A");
   }
   
   return 0;
