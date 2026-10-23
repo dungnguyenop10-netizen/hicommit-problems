@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 int main() 
 {
   float a, b, c;
-  scanf("%f", &a, &b);
+  scanf("%f", &a, &b, &c);
   c = a/(b/100)*2;
   if (c>30) 
   {
