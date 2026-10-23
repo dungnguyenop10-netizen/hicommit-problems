@@ -3,7 +3,7 @@
 int main() 
 {
   long long k;
-  scanf("%d", &k);
+  scanf("%lld", &k);
   if (k<=50)
   {
     printf("%lld", k*1678);
