@@ -3,7 +3,7 @@ int main()
 {
   float a;
   scanf ("%f", &a);
-  if (a=>9 && a<=10)
+  if (a>=9 && a<=10)
   {
     printf("A");
   }
