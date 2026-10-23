@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main() 
 {
-  float a, b, c;
+  float a, b, c, d;
   scanf("%f", &a, &b);
-  c = a/(b/100)*b;
+  d = (b/100)
+  c = a/(b/100)*d;
   if (c>=30) 
   {
     printf ("OBESE");
