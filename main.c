@@ -20,7 +20,6 @@ int main()
   {
     printf("XEP_LOAI_TRUNG_BINH");
   }
-  else
-     printf{"KHONG_HOP_LE"};
+
   return 0;
 }
