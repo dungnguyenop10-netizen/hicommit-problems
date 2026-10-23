@@ -16,11 +16,11 @@ int main()
   {
     printf("XEP_LOAI_KHA");
   }
-   else if (a==4)
+  else if (a==4)
   {
     printf("XEP_LOAI_TRUNG_BINH");
   }
-    else
+  else if (a!=1 && a!=2 && a!=3 && a!=4)
   {
      printf{"KHONG_HOP_LE"};
   }
