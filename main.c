@@ -8,7 +8,7 @@ int main()
   {
     printf("HOC_BONG_XUAT_SAC");
   }
-  else if (t>=8.0 && t<9.0 && r>=80 && r<90 || r>=90 || t>=9.0 && r>=80 && r<90)
+  else if (t>=8.0 && t<9.0 && (r>=80 && r<90 || r>=90) || t>=9.0 && r>=80 && r<90)
   {
     printf("HOC_BONG_GIOI");
   }
