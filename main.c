@@ -4,11 +4,11 @@ int main()
   float a, b, c;
   scanf("%f %f", &a, &b);
   c = a/((b/100)*(b/100));
-  if (c>=30.0) 
+  if (c>=29.9999f) 
   {
     printf ("OBESE");
   }
-  else if (c>=25.0) 
+  else if (c>=24.9999f) 
   {
     printf ("OVERWEIGHT");
   }
