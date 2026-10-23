@@ -24,7 +24,7 @@ int main()
   {
     printf("%d", k*2834);
   }
-  else
+  else if (k>400)
   {
     printf("%d", k*2927);
   }
