@@ -7,27 +7,27 @@ int main()
   {
     printf("A");
   }
-  else if (a>=8 && a<8.9)
+  else if (a>=8 && a<9)
   {
     printf("B+");
   }
-  else if (a>=7 && a<7.9)
+  else if (a>=7 && a<8)
   {
     printf("B");
   }
-  else if (a>=6.5 && a<6.9)
+  else if (a>=6.5 && a<7)
   {
     printf("C+");
   }
-  else if (a>=5.5 && a<6.4)
+  else if (a>=5.5 && a<6.5)
   {
     printf("C");
   }
-  else if (a>=5 && a<5.4)
+  else if (a>=5 && a<5.5)
   {
     printf("D+");
   }
-  else if (a>=4 && a<4.9)
+  else if (a>=4 && a<5)
   {
     printf("D");
   }
