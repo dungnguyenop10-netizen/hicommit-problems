@@ -3,7 +3,7 @@ int main()
 {
   float a, b, c, d;
   scanf("%f", &a, &b);
-  d = (b/100)
+  d = (b/100);
   c = a/(b/100)*d;
   if (c>=30) 
   {
