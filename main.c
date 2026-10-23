@@ -22,11 +22,11 @@ int main()
   }
   else if (k>301 && k<400)
   {
-    printf("%d", k*2834)
+    printf("%d", k*2834);
   }
   else if (k>400) 
   {
-    printf("%d", k*2927)
+    printf("%d", k*2927);
   }
   return 0;
 }
