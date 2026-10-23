@@ -2,21 +2,21 @@
 int main() 
 {
   float a, b, c;
-  scanf("%f", &a, &b);
+  scanf("%f %f", &a, &b);
   c = a/((b/100)*(b/100));
   if (c>=30) 
   {
     printf ("OBESE");
   }
-  else if (c>=25 && c<30) 
+  else if (c>=25) 
   {
     printf ("OVERWEIGHT");
   }
-  else if (c>=18.5 && c<25) 
+  else if (c>=18.5) 
   {
     printf ("NORMAL");
   }
-  else if (c<18.5) 
+  else  
   {
     printf ("UNDERWEIGHT");
   }
