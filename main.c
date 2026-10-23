@@ -20,9 +20,9 @@ int main()
   {
     printf("XEP_LOAI_TRUNG_BINH");
   }
-  else if (a!=1 && a!=2 && a!=3 && a!=4)
+  else
   {
-     printf{"KHONG_HOP_LE"};
+     printf("KHONG_HOP_LE")};
   }
   return 0;
 }
