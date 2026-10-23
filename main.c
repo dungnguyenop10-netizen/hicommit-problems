@@ -10,23 +10,23 @@ int main()
   }
   else if (k<=100)
   {
-    printf("%lld", 50 * 1678 + (k - 50) * 1734);
+    printf("%lld", 50LL * 1678LL + (k - 50) * 1734LL);
   }
   else if (k<=200)
   {
-    printf("%lld", 50 * 1678 + 50 * 1734 + (k - 100) * 2014);
+    printf("%lld", 50LL * 1678LL + 50LL * 1734LL + (k - 100) * 2014LL);
   }
   else if (k<=300)
   {
-     printf("%lld", 50 * 1678 + 50 * 1734 + 100 * 2014 + (k - 200) * 2536);
+     printf("%lld", 50LL * 1678LL + 50LL * 1734LL + 100LL * 2014LL + (k - 200) * 2536LL);
   }
   else if (k<=400)
   {
-    printf("%lld",50 * 1678 + 50 * 1734 + 100 * 2014 + 100 * 2536 + (k - 300) * 2834);
+    printf("%lld",50LL * 1678LL + 50LL * 1734LL + 100LL * 2014LL + 100LL * 2536LL + (k - 300) * 2834LL);
   }
   else
   {
-    printf("%lld", 902850 + (k - 400) * 2927);
+    printf("%lld", 902850LL + (k - 400) * 2927LL);
   }
   return 0;
 }
