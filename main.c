@@ -4,8 +4,7 @@ int main()
 {
   int k;
   scanf("%d", &k);
-  long long k = 0;
-  if (k<50)
+  if (k<=50)
   {
     printf("%d", k*1678);
   }
