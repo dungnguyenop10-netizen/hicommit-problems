@@ -2,7 +2,7 @@
 int main() 
 {
   float a, b, c;
-  scanf("%f", &a, &b, &c);
+  scanf("%f", &a, &b);
   c = a/(b/100)*2;
   if (c>=30) 
   {
