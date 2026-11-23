@@ -2,19 +2,19 @@
 
 int main() 
 {
-  float d;
-  scanf ("%f", &d);
+  doulbe d;
+  scanf ("%lf", &d);
   if ( d <= 1 )
   {
-    printf ("%f", d*15);
+    printf ("%.0lf", d*15000);
   }
   else if ( d <= 5 )
   {
-    printf ("%f", 15 + (d-1) * 13);
+    printf ("%.0lf", 15000 + (d-1) * 13000);
   }
   else if ( d > 5 )
   {
-    printf ("%f", 15 + 4 * 13 + (d-5) * 11);
+    printf ("%.0lf", 15000 + 4 * 13000 + (d-5) * 11000);
   }
   return 0;
 }
