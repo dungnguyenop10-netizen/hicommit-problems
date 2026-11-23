@@ -3,7 +3,7 @@
 int main() 
 {
   float d;
-  scanf ("%f", d);
+  scanf ("%f", &d);
   if ( d <= 1 )
   {
     printf ("%f", d*15000);
