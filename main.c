@@ -13,9 +13,13 @@ int main()
     {
         printf("VALID");
     }
-    else
+    else if ( y > 0 && 1 <= m <= 12 || 1 <= d <= 31)
     {
         printf("INVALID");
+    }
+    else if ( y > 0)
+    {
+        printf("NVALID");
     }
 
     return 0;
