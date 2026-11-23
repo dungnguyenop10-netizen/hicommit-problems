@@ -2,7 +2,7 @@
 
 int main() 
 {
-  doulbe d;
+  double d;
   scanf ("%lf", &d);
   if ( d <= 1 )
   {
