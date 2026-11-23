@@ -3,6 +3,7 @@
 int main()
 {
     int d, m, y;
+    int n = 0;
     scanf ("%d %d %d", &d, &m, &y);
     if ( y <= 0 )
     {
@@ -20,8 +21,9 @@ int main()
     else if ( ( y % 400 == 0 || ( y % 4 == 0 && y % 100 != 0 ) ) && ((1 <= d <= 29) && (m == 2)))
     {
         printf("VALID");
+      n = 1;
     }
-     else if ((d <= 28 && d >= 1) &&  (m == 2))
+     else if ((n==0) && (d <= 28 && d >= 1) &&  (m == 2))
     {
         printf("VALID");
     }
