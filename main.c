@@ -16,18 +16,17 @@ int main()
     {
         printf("VALID");
     }
-    else if (((y % 400 == 0 || (y % 4 == 0 && y % 100 != 0))) && (1 <= d <= 29) && (m == 2))
+    else if ( ( y % 400 == 0 || ( y % 4 == 0 && y % 100 != 0 ) ) && (1 <= d <= 29) && (m == 2))
     {
         printf("VALID");
     }
-    else if ( y > 0 && 1 <= m <= 12 || 1 <= d <= 31)
+     else if ((d <= 28 && d >= 1) &&  (m == 2))
     {
         printf("VALID");
     }
     else
     {
-        printf("INVALID");
+       printf("INVALID");
     }
-
-    return 0;
+  return 0;
 }
