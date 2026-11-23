@@ -4,10 +4,10 @@ int main()
 {
     float g, m;
     int a;
-    scanf("%f %f %d",. &g, &m, &a);
+    scanf("%f %f %d", &g, &m, &a);
     if ( a > 3)
     {
-       printf("FAIL_ATTENDANCE"); 
+       printf("FAIL_ATENDANCE"); 
     }
     else if ( m < 4.0)
     {
@@ -21,7 +21,7 @@ int main()
     {
        printf("GOOD"); 
     }
-    else if ( g >= 5.0 && m >= 4.0)
+    else if ( g > 5.0 && m > 4.0)
     {
        printf("PASS"); 
     }
