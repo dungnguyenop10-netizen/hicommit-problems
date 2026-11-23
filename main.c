@@ -16,7 +16,7 @@ int main()
     {
         printf("VALID");
     }
-    else if ((y % 400 == 0 || (y % 4 == 0 && y % 100 != 0))) && (1 <= d <= 29) && (m == 2))
+    else if (((y % 400 == 0 || (y % 4 == 0 && y % 100 != 0))) && (1 <= d <= 29) && (m == 2))
     {
         printf("VALID");
     }
@@ -26,7 +26,7 @@ int main()
     }
     else
     {
-        printf("NVALID");
+        printf("INVALID");
     }
 
     return 0;
