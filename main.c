@@ -6,15 +6,15 @@ int main()
   scanf ("%f", &d);
   if ( d <= 1 )
   {
-    printf ("%f", d*15000);
+    printf ("%f", d*15);
   }
   else if ( d <= 5 )
   {
-    printf ("%f", 15000 + (d-1) * 13000);
+    printf ("%f", 15 + (d-1) * 13);
   }
   else if ( d > 5 )
   {
-    printf ("%f", 15000 + 4 * 13000 + (d-5) * 11000);
+    printf ("%f", 15 + 4 * 13 + (d-5) * 11);
   }
   return 0;
 }
