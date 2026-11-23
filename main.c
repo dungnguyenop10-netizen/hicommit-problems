@@ -4,7 +4,7 @@ int main()
 {
     float g, m;
     int a;
-    scanf("%f %f %d", &g, m, a);
+    scanf("%f %f %d", &g, &m, &a);
     if ( a > 3)
     {
        printf("FAIL_ATTENDANCE"); 
