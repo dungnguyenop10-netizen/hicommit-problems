@@ -9,10 +9,6 @@ int main()
     {
         printf("VALID");
     }
-    if ( 1 <= d <= 30 &&  (m == 4 || m == 6 || m == 9 || m == 11))
-    {
-        printf("VALID");
-    }
     else if ( y > 0 && 1 <= m <= 12 || 1 <= d <= 31)
     {
         printf("INVALID");
